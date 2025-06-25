@@ -1,3 +1,6 @@
+import random
+
+
 print("Hello Hailey!")
 print(3+4)
 
@@ -16,7 +19,6 @@ fruits = ["apple", "banana", "cherry"]
 for fruit in fruits:
   print(f"내가 좋아하는 과일은 {fruit}입니다.")
 
-import random
 fruits = ["apple", "banana", "cherry"]
 fruit = random.choice(fruits)
 print(f"지금 꺼내 먹을 과일은 {fruit}입니다.")
