@@ -2,12 +2,12 @@ print("Hello Hailey!")
 print(3+4)
 
 name="Hailey"
-age=30
+age=20
 print(name)
 print(age/2)
 
 name="Hailey"
-age=30
+age=20
 language="Korean"
 print(name, age, language)
 
