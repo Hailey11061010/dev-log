@@ -19,4 +19,4 @@ for fruit in fruits:
 import random
 fruits = ["apple", "banana", "cherry"]
 fruit = random.choice(fruits)
-print(f"지금 먹을 과일은 {fruit}입니다.")
+print(f"지금 꺼내 먹을 과일은 {fruit}입니다.")
