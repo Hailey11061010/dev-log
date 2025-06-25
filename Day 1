@@ -1,6 +1,8 @@
 import random
 
 
+
+
 print("Hello Hailey!")
 print(3+4)
 
@@ -15,6 +17,7 @@ language="Korean"
 print(name, age, language)
 
 
+
 fruits = ["apple", "banana", "cherry"]
 for fruit in fruits:
   print(f"내가 좋아하는 과일은 {fruit}입니다.")
@@ -24,8 +27,24 @@ fruit = random.choice(fruits)
 print(f"지금 꺼내 먹을 과일은 {fruit}입니다.")
 
 
+
 dayoff = int(input("너 오늘 몇 시에 퇴근해? "))
 if dayoff <= 6:
   print(f"{dayoff}시 퇴근이구나! 화이팅~!")
 else:
         print(f"{dayoff}시 퇴근이구나...화이팅!!")
+
+
+
+name = input("당신의 이름은? ")
+age = int(input("당신의 나이는? "))
+print (f"안녕하세요, {name}님! 당신은 {age}살이군요!")
+
+
+age = int(input("당신의 나이는? "))
+if age >= 20:
+          print ("성인이군요!")
+elif age >= 10:
+          print ("청소년이군요!")
+else:
+          print ("어린이군요!")
